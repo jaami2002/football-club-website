@@ -1,0 +1,369 @@
+body {
+  font-family: 'Encode Sans Condensed', sans-serif;
+	background-color: rgb(188,206,251);
+}
+
+a{
+	text-decoration: none;
+}
+
+footer{
+	text-align: center;
+	padding-top: 20px ;
+	background-color: #001838;
+	padding-bottom: 20px;
+}
+
+
+/*Navigation-Panel Styles*/
+.form-control {
+	background-color: rgb(245, 245, 245);
+}
+
+
+/*Points Table Styles*/
+*{
+	font-family: Fjalla One;
+  margin: 0;
+	border: 0;
+	padding: 0;
+	color: white;
+}
+
+
+html{
+  background-color: rgb(188,206,251);
+}
+
+.ptable table{
+	margin: 30px auto;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.ptable{
+	margin: 0px 0% 30px 0%;
+  background-color: #001838;
+}
+
+th, td {
+    padding: 10px;
+		text-align: center;
+}
+
+th{
+	background-color: rgb(188,206,251);;
+	color: #001838;
+}
+
+.headin-1{
+	color: #001838;
+	text-align: center;
+	font-weight: 500;
+	background-color: rgb(233, 201, 24);
+	font-size: 100px;
+}
+
+.headin{
+	padding-top: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(188,206,251);
+	margin: 30px;
+	display: block;
+}
+
+.wpos{
+	text-align: center;
+}
+
+.wpos td{
+	color: #77ff21;
+}
+
+.pos{
+	text-align: center;
+}
+
+.pos td{
+	color: #ff7b21;
+}
+
+table .col{
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.wpos:hover{
+	background-color: #77ff21;
+}
+
+.wpos:hover td{
+	color: #000000;
+}
+
+.pos:hover{
+	background-color: #ff7b21;
+}
+
+.pos:hover td{
+	color: #000000;
+}
+
+
+/*carousel*/
+.carousel-item{
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-weight: 1000;
+	color: #001838;
+}
+
+.carousel-caption h1 {
+	color: #b1b90e; 
+	font-weight: 700;
+	font-size: 70px;
+}
+
+
+.carousel-image {
+	max-height: 500px; /* Adjust the height as needed */
+	object-fit: cover;
+	width: 100%;
+}
+
+
+#stadiumCarousel .carousel-image {
+	max-height: 500px; 
+	object-fit: cover;
+	width: 100%;
+}
+
+
+
+/*Gallery section*/
+.gallery{
+	padding: auto;
+}
+
+
+/*Player's section*/
+.img-hover-effect {
+	transition: transform 0.3s ease-in-out;
+}
+
+.img-hover-effect:hover {
+	transform: scale(1.1); 
+}
+
+
+/* social section */
+.social-icons {
+	text-align: center;
+}
+
+.img-different-hover:hover {
+	opacity: 0.7;
+}
+
+/*News section*/
+.news-tab-caption {
+	color: #001838;
+}
+
+/*Gallery section*/
+.gallery-item {
+	margin-bottom: 20px;
+}
+
+.img-hover-2:hover{
+	background-color: #001838;
+	color: rgb(188,206,251);
+}
+
+/*contact us section*/
+.submit-button{
+	margin-bottom: 20px;
+}
+
+.contact-heading{
+	font-weight: 400;
+}
+
+.head-1 {
+	color: #001838;
+	text-align: center;
+	font-weight: 500;
+	background-color: rgb(255, 217, 0);
+	font-size: 50px;
+}
+
+/* Mobile Styles */
+@media (max-width: 576px) {
+	img {
+    max-width: 100%;
+}
+
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.7); 
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px; 
+	color: #fff; 
+	text-align: center;
+}
+
+.carousel-caption h1 {
+	font-size: 20px; 
+	margin: 0; 
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+	font-size: 24px; 
+}
+
+.carousel-control-prev {
+	margin-left: -30px; 
+}
+
+.carousel-control-next {
+	margin-right: -30px; 
+}
+
+.ptable table {
+	font-size: 14px; 
+}
+.ptable th,
+.ptable td {
+	padding: 8px; 
+}
+}
+
+
+
+/* Tablet Styles */
+@media (min-width: 577px) and (max-width: 992px) {
+	
+	img {
+    max-width: 100%;
+}
+
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.7); 
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px; 
+	color: #fff; 
+	text-align: center;
+}
+
+.carousel-caption h1 {
+	font-size: 20px; 
+	margin: 0; 
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+	font-size: 24px; 
+}
+
+
+.carousel-control-prev {
+	margin-left: -30px; 
+}
+
+.carousel-control-next {
+	margin-right: -30px; 
+}
+
+.ptable table {
+	font-size: 14px; 
+}
+.ptable th,
+.ptable td {
+	padding: 8px; 
+}
+}
+
+
+
+/* Desktop Styles */
+@media (min-width: 993px) {
+	img {
+    max-width: 100%;
+}
+
+/* CSS for Carousel Captions */
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	color: #fff; 
+	text-align: center;
+}
+
+.carousel-caption h1 {
+	font-size: 20px; 
+	margin: 0; 
+}
+
+/* CSS for Carousel Control Buttons (Previous and Next) */
+.carousel-control-prev,
+.carousel-control-next {
+	font-size: 24px; 
+}
+
+/* Adjust the margin of the control buttons as needed */
+.carousel-control-prev {
+	margin-left: -30px; 
+}
+
+.carousel-control-next {
+	margin-right: -30px; 
+}
+
+.ptable table {
+	font-size: 14px; 
+}
+.ptable th,
+.ptable td {
+	padding: 8px; 
+}
+}
+
+/*contact us section*/
+.contact-btn:hover {
+	background: #96caff ;
+	box-shadow: 0 0 5px #96caff, 0 0 25px #96caff, 0 0 50px #96caff, 0 0 200px #96caff;
+}
+
+/*video card*/
+.video-card {
+	position: relative;
+	overflow: hidden;
+}
+
+.video-card video {
+	width: 100%;
+	transition: transform 0.3s;
+}
+
+.play-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2rem;
+	color: #fff;
+	cursor: pointer;
+}
