@@ -125,14 +125,14 @@ table .col{
 
 
 .carousel-image {
-	max-height: 500px; /* Adjust the height as needed */
+	max-height: 900px;
 	object-fit: cover;
 	width: 100%;
 }
 
 
 #stadiumCarousel .carousel-image {
-	max-height: 500px; 
+	max-height: 700px; 
 	object-fit: cover;
 	width: 100%;
 }
